@@ -372,6 +372,8 @@ public class CurrencyPair implements Comparable<CurrencyPair>, Serializable {
   public static final CurrencyPair LTC_USDT = new CurrencyPair(Currency.LTC, Currency.USDT);
   public static final CurrencyPair ZEC_USDT = new CurrencyPair(Currency.ZEC, Currency.USDT);
 
+  public static final CurrencyPair MOD_ETH = new CurrencyPair(Currency.MOD, Currency.ETH);
+
   public final Currency base;
 
   public final Currency counter;
